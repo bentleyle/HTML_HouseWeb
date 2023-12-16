@@ -1,0 +1,390 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    width: 1100px;
+   
+}
+
+.header {
+
+    width: 100%;
+    display: flex;
+    /* background-color: aqua; */
+    
+}
+
+.header>img {
+    width: 15   0px;
+    height: 50px;
+}
+
+/*  LƯU Ý CĂN GIỮA  */
+.header .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    
+}
+
+.header .nav>a {
+    margin: 20px;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 13px;
+    color: black;
+    font-weight: bold;
+}
+
+.nav a:hover{
+    color: #35bf76;
+
+}
+
+.header .right{
+    display: flex;
+    align-items: center;
+}
+
+.header .right >p {
+    margin: 20px;
+}
+.header .right>a>button {
+    background-color: 35bf76;
+    border-radius: 5px;
+    border:  0 solid ;
+    width: 100px;
+    height: 35px;
+    color: white;
+
+}
+
+.header .right>p,button:hover {
+    cursor: pointer;
+}
+
+.dropdown>a {
+    text-decoration: none;
+    font-family: arial;
+    font-size: 13px;
+    color: black;
+    font-weight: bold;
+}
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    /* margin: 2px 0 0; */
+    /* margin-top: 5px; */
+    /* border: 5px solid red; */
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1; 
+    width: px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    width: 135px;
+    color: black;
+    font-family: arial;
+    font-size: 13px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+.nav-menu {
+    background-image: url(https://1.bp.blogspot.com/-L2At04WwrVA/XoWeyFO4MCI/AAAAAAAAHZk/6OM63eCeO1UNZRMpmWW41ihPASaVFhUmgCLcBGAsYHQ/s1600/bg_why.png);
+    text-align: center;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.nav-menu .middle>span {
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: arial;
+    line-height: 70px;
+}
+
+.nav-menu .middle>h2 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.body-select {
+    display: flex;
+    height: 86px;
+    background-color: #35bf76;
+    padding: 0 30px;
+    align-items: center;
+   
+    
+    
+}
+
+
+
+.text_input1>select {
+    color: black;
+    height: 40px;
+    width: 250px;
+    border-radius: 3px;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.text_input1>input {
+    height: 40px;
+    width: 250px;
+}
+
+.body-select>p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-left {
+    width: 26.5%;
+    /* background-color: gray; */
+    float: left;
+}
+
+
+.content-right {
+    width: 72%;
+    /* background-color: gray; */
+}
+.content-left_topText {
+    margin-top: 15px;
+    margin-left: 10%;
+}
+
+.content-left_topText>h2 {
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+.content-left_topText>a {
+   
+    line-height: 35px;
+    display: block;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.content-left_topText>a:hover {
+    color: #35bf76;
+}
+
+.content-left_botText {
+    margin-top: 15px;
+    margin-left: 10%;
+    
+}
+.content-left_botText>h2 {
+   
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.ct-left_item {
+    margin-top: 15px;
+    display: flex;
+    margin-bottom: 29px;
+    
+
+}
+
+.ct-left_item>img {
+    width: 100px;
+    height: 62.43px;
+    
+}
+.ct-left_item>a {
+    width: 140px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+   margin-left: 5px;
+   text-decoration: none;
+}
+
+.ct-left_item>:hover {
+    color: #35bf76;
+}
+
+.content-right-news {
+    font-family: 'Roboto';
+}
+
+.content-right-news>h1 {
+    color: #434a6e;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    line-height: 34px;
+}
+
+center {
+    margin: 20px 0px;
+}
+
+
+
+.content-right-textNews {
+    font-family: 'Roboto';
+    margin-top: 20px;
+    font-size: 14px;
+    color: #83839a;
+    line-height: 24px;
+
+}
+
+.content-right-textNews>p {
+    margin: 20px 0px;
+}
+
+.top-footer {
+    
+    height: 643px;
+    background-image: url(https://1.bp.blogspot.com/-xCh-3K4KbqY/XoWe8Kzpr2I/AAAAAAAAHZs/WCdNZy969CosJ-jg0qlcZchg1z3__EA5gCLcBGAsYHQ/s1600/bg_subscribe.png);
+
+}
+
+.first-top {
+    display: flex;
+    justify-content: center;    
+}
+
+.first-top>img {
+    margin-top: 64px;
+}
+.top-footer>p {
+    margin-top: 29px;
+    text-align: center;
+    font-size: 14px;
+    font-family: arial;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-item {
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly ;
+    margin-left: -100px;
+    
+    
+}
+
+.first-footer-item>p {
+    margin-top: 12px;
+    color: white;
+    font-family: arial;
+    text-align: center;
+}
+
+.first-footer-item>span {
+    font-size: 13px;
+    line-height: 40px;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-bot-content {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-bot-text {
+    margin-top: 20px;
+}
+
+.footer-bot-text>h4 {
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+
+}
+
+.footer-bot-text>ul {
+    margin-top: 20px;
+    line-height: 40px;
+    list-style: none;
+}
+
+.footer-bot-text>ul>li>a {
+    color: white;
+    text-decoration: none;
+    font-family: arial;
+    color: #D3D3D3;
+}
+
+.footer-bot-text>ul>li>a:hover {
+    cursor: pointer;
+    color: #35bf76;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-family: arial;
+    color: #D3D3D3;
+    background-color: #121728;
+}
+
+.label-footer {
+    cursor: pointer;
+    color: #35bf76;
+    text-decoration: underline;
+}
+
